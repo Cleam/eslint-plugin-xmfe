@@ -22,12 +22,39 @@ $ npm install eslint-plugin-xmfe --save-dev
 
 Add `xmfe` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
+for general project:
+
 ```json
 {
   "plugins": ["xmfe"],
-  "extends": ["plugin:myPlugin/recommended"],
-  "extends": ["plugin:myPlugin/vue"], // for vue project
-  "extends": ["plugin:myPlugin/react"] // for react project
+  "extends": ["plugin:xmfe/recommended"]
+}
+```
+
+for vue project:
+
+```json
+{
+  "plugins": ["xmfe"],
+  "extends": ["plugin:xmfe/vue"]
+}
+```
+
+for react project:
+
+```json
+{
+  "plugins": ["xmfe"],
+  "extends": ["plugin:xmfe/react"]
+}
+```
+
+for node project:
+
+```json
+{
+  "plugins": ["xmfe"],
+  "extends": ["plugin:xmfe/node"]
 }
 ```
 
