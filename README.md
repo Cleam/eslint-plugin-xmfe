@@ -1,19 +1,19 @@
 # eslint-plugin-xmfe
 
-xmfe rules
+xmfe rules that combine [prettier](https://prettier.io/) with `eslint`
 
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
-```
-$ npm i eslint --save-dev
+```bash
+npm i eslint --save-dev
 ```
 
 Next, install `eslint-plugin-xmfe`:
 
-```
-$ npm install eslint-plugin-xmfe --save-dev
+```bash
+npm install eslint-plugin-xmfe --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-xmfe` globally.
@@ -70,4 +70,26 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-- Fill in provided rules here
+custom rules:
+
+```json
+{
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "printWidth": 100,
+        "tabWidth": 2,
+        "semi": true
+      }
+    ],
+    "no-console": "off"
+  }
+}
+```
+
+`recommended`: extends `eslint:recommended` and `plugin:prettier/recommended` with custom rules (above)
+`vue`: extends `eslint:recommended`,`plugin:vue/essential` and `plugin:prettier/recommended` with custom rules (above)
+`react`: extends: `eslint:recommended`, `react-app` and `plugin:prettier/recommended` with custom rules (above)
+`node`: extends `eslint:recommended` and `plugin:prettier/recommended` with custom rules (above)
