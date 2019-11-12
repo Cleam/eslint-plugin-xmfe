@@ -79,7 +79,7 @@ npm install eslint-plugin-xmfe --save-dev
 }
 ```
 
-`recommended`: 继承自 `eslint:recommended` 和 `plugin:prettier/recommended` 加上上面的自定义规则
-`vue`: 继承自 `eslint:recommended`,`plugin:vue/essential` 和 `plugin:prettier/recommended` 加上上面的自定义规则
-`react`: 继承自 `eslint:recommended`, `react-app` 和 `plugin:prettier/recommended`加上上面的自定义规则
-`node`: 继承自 `eslint:recommended` 和 `plugin:prettier/recommended`加上上面的自定义规则
+- `recommended`: 继承自 `eslint:recommended` 和 `plugin:prettier/recommended` 加上上面的自定义规则
+- `vue`: 继承自 `eslint:recommended`,`plugin:vue/essential` 和 `plugin:prettier/recommended` 加上上面的自定义规则
+- `react`: 继承自 `eslint:recommended`, `react-app` 和 `plugin:prettier/recommended`加上上面的自定义规则
+- `node`: 继承自 `eslint:recommended` 和 `plugin:prettier/recommended`加上上面的自定义规则

@@ -2,6 +2,8 @@
 
 xmfe rules that combine [prettier](https://prettier.io/) with `eslint`
 
+> [简体中文](./README_CN.md)
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
@@ -89,7 +91,7 @@ custom rules:
 }
 ```
 
-`recommended`: extends `eslint:recommended` and `plugin:prettier/recommended` with custom rules (above)
-`vue`: extends `eslint:recommended`,`plugin:vue/essential` and `plugin:prettier/recommended` with custom rules (above)
-`react`: extends: `eslint:recommended`, `react-app` and `plugin:prettier/recommended` with custom rules (above)
-`node`: extends `eslint:recommended` and `plugin:prettier/recommended` with custom rules (above)
+- `recommended`: extends `eslint:recommended` and `plugin:prettier/recommended` with custom rules (above)
+- `vue`: extends `eslint:recommended`,`plugin:vue/essential` and `plugin:prettier/recommended` with custom rules (above)
+- `react`: extends: `eslint:recommended`, `react-app` and `plugin:prettier/recommended` with custom rules (above)
+- `node`: extends `eslint:recommended` and `plugin:prettier/recommended` with custom rules (above)
