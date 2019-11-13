@@ -5,7 +5,10 @@
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "prettier",
+    "xmfe",
+    "xmfe rules"
   ],
   "author": "cleam",
   "main": "lib/index.js",
