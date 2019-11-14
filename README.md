@@ -94,4 +94,4 @@ custom rules:
 - `react`: extends: `eslint:recommended`, `react-app` and `plugin:prettier/recommended` with custom rules (above)
 - `node`: extends `eslint:recommended` and `plugin:prettier/recommended` with custom rules (above)
 
-> [简体中文](http://codeio.dftoutiao.com/RESEARCH/eslint-plugin-xmfe/src/master/README_CN.md)
+> [简体中文](./README_CN.md)

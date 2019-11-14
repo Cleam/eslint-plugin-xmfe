@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-xmfe",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "xmfe rules",
   "keywords": [
     "eslint",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://codeio.dftoutiao.com/RESEARCH/eslint-plugin-xmfe.git"
+    "url": "https://github.com/Cleam/eslint-plugin-xmfe.git"
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
