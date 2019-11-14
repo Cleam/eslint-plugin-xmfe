@@ -33,8 +33,5 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "license": "ISC"
 }
