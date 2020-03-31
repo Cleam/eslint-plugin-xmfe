@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-xmfe",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "xmfe rules",
   "keywords": [
     "eslint",
@@ -22,7 +22,7 @@
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
     "prettier": "^1.19.1"
   },
